@@ -1,0 +1,17 @@
+[project]
+name = "x-llm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "openai>=2.15.0",
+    "pydantic>=2.12.5",
+    "rich>=14.2.0",
+    "transformers>=4.57.6",
+    "typing>=3.10.0.0",
+]
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
